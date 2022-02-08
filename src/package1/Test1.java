@@ -30,6 +30,8 @@ public class Test1 {
 		Thread.sleep(2000);
 		System.out.println("user2 has updated this code");
 		System.out.println("user3 has updated this code in GitHub");
+		System.out.println("user2 has updated this code second time");
+		
 
 		driver.quit();
 
