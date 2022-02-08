@@ -11,6 +11,7 @@ public class Test1 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		// DesiredCapabilities -->Class
+		
 		DesiredCapabilities cap = DesiredCapabilities.chrome();
 		cap.acceptInsecureCerts();
 		cap.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
@@ -28,6 +29,7 @@ public class Test1 {
 		driver.get("https://expired.badssl.com/");
 		Thread.sleep(2000);
 		System.out.println("user2 has updated this code");
+		System.out.println("user3 has updated this code in GitHub");
 
 		driver.quit();
 
